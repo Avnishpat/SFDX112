@@ -3,7 +3,7 @@ public class AccountController {
     {
         for (Account acc : accList)
         {
-            acc.CustomerPriority__c = 'High';
+            acc.CustomerPriority__c = 'Low';
         }
     }
 }
